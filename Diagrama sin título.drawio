@@ -1,11 +1,165 @@
-<mxfile host="app.diagrams.net" modified="2023-03-04T23:22:03.592Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="2UUmSH4aFr0ty89enhnI" version="21.0.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-03-05T02:37:51.096Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="Ay0Raxu0un_VNYaihecB" version="21.0.2" type="github">
   <diagram name="Página-1" id="4U2wSh6onjoOHA8W8764">
-    <mxGraphModel dx="950" dy="625" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1777" dy="625" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="MW6SG7xbOyb2AjNmcGoh-1" value="&lt;meta charset=&quot;utf-8&quot;&gt;&lt;p style=&quot;margin: 0px 0px 10px 30px; color: rgb(101, 101, 101); font-family: &amp;quot;Century Gothic&amp;quot;, Arial, Helvetica, sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot; dir=&quot;ltr&quot;&gt;&lt;strong style=&quot;font-weight: bold;&quot;&gt;&lt;strong style=&quot;font-weight: bold;&quot;&gt;Diseña una base de datos sobre proveedores, disponemos de la siguiente información:&lt;/strong&gt;&lt;/strong&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 10px 30px; color: rgb(101, 101, 101); font-family: &amp;quot;Century Gothic&amp;quot;, Arial, Helvetica, sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot; dir=&quot;ltr&quot;&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 10px 30px; color: rgb(101, 101, 101); font-family: &amp;quot;Century Gothic&amp;quot;, Arial, Helvetica, sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot; dir=&quot;ltr&quot;&gt;&lt;strong style=&quot;font-weight: bold;&quot;&gt;Cadena editorial:&lt;/strong&gt;&lt;/p&gt;&lt;ul style=&quot;padding: 0px; margin: 0px 0px 10px 25px; color: rgb(101, 101, 101); font-family: &amp;quot;Century Gothic&amp;quot;, Arial, Helvetica, sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;&lt;li style=&quot;line-height: 20px; list-style-type: none;&quot;&gt;&lt;ul style=&quot;padding: 0px; margin: 0px 0px 0px 25px;&quot;&gt;&lt;li style=&quot;line-height: 20px;&quot; aria-level=&quot;1&quot; dir=&quot;ltr&quot;&gt;&lt;p style=&quot;margin: 0px 0px 10px;&quot; role=&quot;presentation&quot; dir=&quot;ltr&quot;&gt;La editorial tiene varias sucursales, con su domicilio, teléfono y un código de sucursal.&lt;/p&gt;&lt;/li&gt;&lt;li style=&quot;line-height: 20px;&quot; aria-level=&quot;1&quot; dir=&quot;ltr&quot;&gt;&lt;p style=&quot;margin: 0px 0px 10px;&quot; role=&quot;presentation&quot; dir=&quot;ltr&quot;&gt;Cada sucursal tiene varios empleados, de los cuales tendremos su nombre, apellidos, NIF y teléfono. Un empleado trabaja en una única sucursal.&lt;/p&gt;&lt;/li&gt;&lt;li style=&quot;line-height: 20px;&quot; aria-level=&quot;1&quot; dir=&quot;ltr&quot;&gt;&lt;p style=&quot;margin: 0px 0px 10px;&quot; role=&quot;presentation&quot; dir=&quot;ltr&quot;&gt;En cada sucursal se publican varias revistas, de las que almacenaremos su título, número de registro, periodicidad y tipo.&lt;/p&gt;&lt;/li&gt;&lt;li style=&quot;line-height: 20px;&quot; aria-level=&quot;1&quot; dir=&quot;ltr&quot;&gt;&lt;p style=&quot;margin: 0px 0px 10px;&quot; role=&quot;presentation&quot; dir=&quot;ltr&quot;&gt;Una revista puede ser publicada por varias sucursales.&lt;/p&gt;&lt;/li&gt;&lt;li style=&quot;line-height: 20px;&quot; aria-level=&quot;1&quot; dir=&quot;ltr&quot;&gt;&lt;p style=&quot;margin: 0px 0px 10px;&quot; role=&quot;presentation&quot; dir=&quot;ltr&quot;&gt;La editorial tiene periodistas (que no trabajan en las sucursales) que pueden escribir artículos para varias revistas. Almacenaremos los mismos datos que para los empleados, añadiendo su especialidad.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;/ul&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="MW6SG7xbOyb2AjNmcGoh-1" value="&lt;p style=&quot;margin: 0px 0px 10px 30px; color: rgb(101, 101, 101); font-family: &amp;quot;Century Gothic&amp;quot;, Arial, Helvetica, sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot; dir=&quot;ltr&quot;&gt;&lt;strong style=&quot;font-weight: bold;&quot;&gt;&lt;strong style=&quot;font-weight: bold;&quot;&gt;Diseña una base de datos sobre proveedores, disponemos de la siguiente información:&lt;/strong&gt;&lt;/strong&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 10px 30px; color: rgb(101, 101, 101); font-family: &amp;quot;Century Gothic&amp;quot;, Arial, Helvetica, sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot; dir=&quot;ltr&quot;&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 10px 30px; color: rgb(101, 101, 101); font-family: &amp;quot;Century Gothic&amp;quot;, Arial, Helvetica, sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot; dir=&quot;ltr&quot;&gt;&lt;strong style=&quot;font-weight: bold;&quot;&gt;Cadena editorial:&lt;/strong&gt;&lt;/p&gt;&lt;ul style=&quot;padding: 0px; margin: 0px 0px 10px 25px; font-family: &amp;quot;Century Gothic&amp;quot;, Arial, Helvetica, sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;&lt;li style=&quot;line-height: 20px; list-style-type: none;&quot;&gt;&lt;ul style=&quot;padding: 0px; margin: 0px 0px 0px 25px;&quot;&gt;&lt;li style=&quot;line-height: 20px;&quot; aria-level=&quot;1&quot; dir=&quot;ltr&quot;&gt;&lt;p style=&quot;margin: 0px 0px 10px;&quot; role=&quot;presentation&quot; dir=&quot;ltr&quot;&gt;&lt;font style=&quot;font-weight: 400;&quot; color=&quot;#656565&quot;&gt;La editorial tiene varias &lt;/font&gt;&lt;font style=&quot;&quot; color=&quot;#232fd1&quot;&gt;&lt;b&gt;sucursales&lt;/b&gt;&lt;/font&gt;&lt;font style=&quot;font-weight: 400;&quot; color=&quot;#656565&quot;&gt;, con su domicilio, teléfono y un código de sucursal.&lt;/font&gt;&lt;/p&gt;&lt;/li&gt;&lt;li style=&quot;line-height: 20px;&quot; aria-level=&quot;1&quot; dir=&quot;ltr&quot;&gt;&lt;p style=&quot;margin: 0px 0px 10px;&quot; role=&quot;presentation&quot; dir=&quot;ltr&quot;&gt;&lt;font style=&quot;font-weight: 400;&quot; color=&quot;#656565&quot;&gt;Cada sucursal tiene varios &lt;/font&gt;&lt;font style=&quot;&quot; color=&quot;#0936ec&quot;&gt;&lt;b&gt;empleados&lt;/b&gt;&lt;/font&gt;&lt;font style=&quot;font-weight: 400;&quot; color=&quot;#656565&quot;&gt;, de los cuales tendremos su nombre, apellidos, NIF y teléfono. Un empleado trabaja en una única sucursal.&lt;/font&gt;&lt;/p&gt;&lt;/li&gt;&lt;li style=&quot;line-height: 20px;&quot; aria-level=&quot;1&quot; dir=&quot;ltr&quot;&gt;&lt;p style=&quot;margin: 0px 0px 10px;&quot; role=&quot;presentation&quot; dir=&quot;ltr&quot;&gt;&lt;font style=&quot;font-weight: 400;&quot; color=&quot;#656565&quot;&gt;En cada sucursal se publican varias &lt;/font&gt;&lt;font style=&quot;&quot; color=&quot;#0f1eeb&quot;&gt;&lt;b&gt;revistas&lt;/b&gt;&lt;/font&gt;&lt;font style=&quot;font-weight: 400;&quot; color=&quot;#656565&quot;&gt;, de las que almacenaremos su título, número de registro, periodicidad y tipo.&lt;/font&gt;&lt;/p&gt;&lt;/li&gt;&lt;li style=&quot;font-weight: 400; color: rgb(101, 101, 101); line-height: 20px;&quot; aria-level=&quot;1&quot; dir=&quot;ltr&quot;&gt;&lt;p style=&quot;margin: 0px 0px 10px;&quot; role=&quot;presentation&quot; dir=&quot;ltr&quot;&gt;Una revista puede ser publicada por varias sucursales.&lt;/p&gt;&lt;/li&gt;&lt;li style=&quot;line-height: 20px;&quot; aria-level=&quot;1&quot; dir=&quot;ltr&quot;&gt;&lt;p style=&quot;margin: 0px 0px 10px;&quot; role=&quot;presentation&quot; dir=&quot;ltr&quot;&gt;&lt;font style=&quot;font-weight: 400;&quot; color=&quot;#656565&quot;&gt;La editorial tiene &lt;/font&gt;&lt;font style=&quot;&quot; color=&quot;#0a23e6&quot;&gt;&lt;b&gt;periodistas&lt;/b&gt;&lt;/font&gt;&lt;font style=&quot;font-weight: 400;&quot; color=&quot;#656565&quot;&gt; (que no trabajan en las sucursales) que pueden escribir artículos para varias revistas. Almacenaremos los mismos datos que para los empleados, añadiendo su especialidad.&lt;/font&gt;&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;/ul&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="70" y="60" width="560" height="360" as="geometry" />
+        </mxCell>
+        <mxCell id="MW6SG7xbOyb2AjNmcGoh-4" value="empleados" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="630" y="585" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MW6SG7xbOyb2AjNmcGoh-6" value="periodistas" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="30" y="590" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MW6SG7xbOyb2AjNmcGoh-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="MW6SG7xbOyb2AjNmcGoh-7" target="MW6SG7xbOyb2AjNmcGoh-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MW6SG7xbOyb2AjNmcGoh-7" value="domicio" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="370" y="495" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="MW6SG7xbOyb2AjNmcGoh-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.833;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="MW6SG7xbOyb2AjNmcGoh-8" target="MW6SG7xbOyb2AjNmcGoh-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MW6SG7xbOyb2AjNmcGoh-8" value="teléfono" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="470" y="500" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="MW6SG7xbOyb2AjNmcGoh-82" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.083;entryY=0.017;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="MW6SG7xbOyb2AjNmcGoh-11" target="MW6SG7xbOyb2AjNmcGoh-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MW6SG7xbOyb2AjNmcGoh-11" value="nombre" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="470" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="MW6SG7xbOyb2AjNmcGoh-92" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="MW6SG7xbOyb2AjNmcGoh-13" target="MW6SG7xbOyb2AjNmcGoh-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MW6SG7xbOyb2AjNmcGoh-13" value="teléfono" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="710" y="695" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="MW6SG7xbOyb2AjNmcGoh-64" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="MW6SG7xbOyb2AjNmcGoh-15" target="MW6SG7xbOyb2AjNmcGoh-99">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="220" y="650" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MW6SG7xbOyb2AjNmcGoh-15" value="titulo" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="720" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="MW6SG7xbOyb2AjNmcGoh-105" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.1;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="MW6SG7xbOyb2AjNmcGoh-17" target="MW6SG7xbOyb2AjNmcGoh-99">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MW6SG7xbOyb2AjNmcGoh-17" value="periodicidad" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="510" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="MW6SG7xbOyb2AjNmcGoh-103" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="MW6SG7xbOyb2AjNmcGoh-18">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="280" y="640" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MW6SG7xbOyb2AjNmcGoh-18" value="tipo" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="680" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="MW6SG7xbOyb2AjNmcGoh-109" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.067;entryY=-0.017;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="MW6SG7xbOyb2AjNmcGoh-20" target="MW6SG7xbOyb2AjNmcGoh-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MW6SG7xbOyb2AjNmcGoh-20" value="nombre" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry y="525" width="80" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="MW6SG7xbOyb2AjNmcGoh-111" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.083;entryY=1.017;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="MW6SG7xbOyb2AjNmcGoh-22" target="MW6SG7xbOyb2AjNmcGoh-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MW6SG7xbOyb2AjNmcGoh-22" value="teléfono" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry y="680" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="MW6SG7xbOyb2AjNmcGoh-112" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.825;entryY=1.017;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="MW6SG7xbOyb2AjNmcGoh-23" target="MW6SG7xbOyb2AjNmcGoh-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MW6SG7xbOyb2AjNmcGoh-23" value="especialidad" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="680" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="MW6SG7xbOyb2AjNmcGoh-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.417;entryY=1.05;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="MW6SG7xbOyb2AjNmcGoh-47" target="MW6SG7xbOyb2AjNmcGoh-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MW6SG7xbOyb2AjNmcGoh-47" value="código" style="ellipse;whiteSpace=wrap;html=1;align=center;fontStyle=4;" vertex="1" parent="1">
+          <mxGeometry x="410" y="720" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="MW6SG7xbOyb2AjNmcGoh-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.025;entryY=0.32;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="MW6SG7xbOyb2AjNmcGoh-49" target="MW6SG7xbOyb2AjNmcGoh-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MW6SG7xbOyb2AjNmcGoh-49" value="apellido paterno" style="ellipse;whiteSpace=wrap;html=1;align=center;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="460" y="455" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="MW6SG7xbOyb2AjNmcGoh-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="MW6SG7xbOyb2AjNmcGoh-50" target="MW6SG7xbOyb2AjNmcGoh-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MW6SG7xbOyb2AjNmcGoh-50" value="apellido materno" style="ellipse;whiteSpace=wrap;html=1;align=center;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="590" y="410" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="MW6SG7xbOyb2AjNmcGoh-78" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.833;entryY=-0.017;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="MW6SG7xbOyb2AjNmcGoh-53" target="MW6SG7xbOyb2AjNmcGoh-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MW6SG7xbOyb2AjNmcGoh-53" value="NIF" style="ellipse;whiteSpace=wrap;html=1;align=center;fontStyle=4;" vertex="1" parent="1">
+          <mxGeometry x="680" y="500" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="MW6SG7xbOyb2AjNmcGoh-93" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.167;entryY=1.033;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="MW6SG7xbOyb2AjNmcGoh-54" target="MW6SG7xbOyb2AjNmcGoh-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MW6SG7xbOyb2AjNmcGoh-54" value="sucursal" style="ellipse;whiteSpace=wrap;html=1;align=center;fontStyle=4;" vertex="1" parent="1">
+          <mxGeometry x="600" y="705" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="MW6SG7xbOyb2AjNmcGoh-104" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="MW6SG7xbOyb2AjNmcGoh-55" target="MW6SG7xbOyb2AjNmcGoh-99">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MW6SG7xbOyb2AjNmcGoh-55" value="número de registro" style="ellipse;whiteSpace=wrap;html=1;align=center;fontStyle=4;" vertex="1" parent="1">
+          <mxGeometry x="270" y="515" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="MW6SG7xbOyb2AjNmcGoh-108" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="MW6SG7xbOyb2AjNmcGoh-59" target="MW6SG7xbOyb2AjNmcGoh-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MW6SG7xbOyb2AjNmcGoh-59" value="apellido materno" style="ellipse;whiteSpace=wrap;html=1;align=center;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="-50" y="460" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="MW6SG7xbOyb2AjNmcGoh-107" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="MW6SG7xbOyb2AjNmcGoh-60" target="MW6SG7xbOyb2AjNmcGoh-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MW6SG7xbOyb2AjNmcGoh-60" value="apellido paterno" style="ellipse;whiteSpace=wrap;html=1;align=center;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="460" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="MW6SG7xbOyb2AjNmcGoh-3" value="sucursales" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="410" y="585" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MW6SG7xbOyb2AjNmcGoh-79" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERoneToMany;rounded=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;exitX=1;exitY=0.75;exitDx=0;exitDy=0;" edge="1" parent="1" source="MW6SG7xbOyb2AjNmcGoh-3" target="MW6SG7xbOyb2AjNmcGoh-4">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="380" y="620" as="sourcePoint" />
+            <mxPoint x="480" y="520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MW6SG7xbOyb2AjNmcGoh-113" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.908;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="MW6SG7xbOyb2AjNmcGoh-56" target="MW6SG7xbOyb2AjNmcGoh-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MW6SG7xbOyb2AjNmcGoh-56" value="NIF" style="ellipse;whiteSpace=wrap;html=1;align=center;fontStyle=4;" vertex="1" parent="1">
+          <mxGeometry x="90" y="525" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="MW6SG7xbOyb2AjNmcGoh-90" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERoneToMany;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="300" y="1260" as="sourcePoint" />
+            <mxPoint x="440" y="1260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MW6SG7xbOyb2AjNmcGoh-99" value="revista" style="whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="220" y="600" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="MW6SG7xbOyb2AjNmcGoh-102" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERoneToMany;rounded=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" target="MW6SG7xbOyb2AjNmcGoh-3">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="320" y="630" as="sourcePoint" />
+            <mxPoint x="420" y="530" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MW6SG7xbOyb2AjNmcGoh-106" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERoneToMany;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="MW6SG7xbOyb2AjNmcGoh-6" target="MW6SG7xbOyb2AjNmcGoh-99">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="160" y="610" as="sourcePoint" />
+            <mxPoint x="260" y="510" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
