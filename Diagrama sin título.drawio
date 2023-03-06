@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-03-06T01:56:03.315Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="ue6n1BLC5Y50tNFHH7x8" version="21.0.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-03-06T02:01:16.687Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="yRketVJHxAcNgheJ_cCW" version="21.0.2" type="github">
   <diagram name="Página-1" id="4U2wSh6onjoOHA8W8764">
-    <mxGraphModel dx="1777" dy="625" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2017" dy="625" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -317,7 +317,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="AlthXYVjQaWiGImwefOa-52" value="Sucursal" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
-          <mxGeometry x="350" y="950" width="180" height="150" as="geometry" />
+          <mxGeometry x="270" y="950" width="180" height="150" as="geometry" />
         </mxCell>
         <mxCell id="AlthXYVjQaWiGImwefOa-53" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" vertex="1" parent="AlthXYVjQaWiGImwefOa-52">
           <mxGeometry y="30" width="180" height="30" as="geometry" />
@@ -372,7 +372,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="AlthXYVjQaWiGImwefOa-94" value="Empleado" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;html=1;whiteSpace=wrap;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
-          <mxGeometry x="760" y="950" width="180" height="210" as="geometry" />
+          <mxGeometry x="620" y="950" width="180" height="210" as="geometry" />
         </mxCell>
         <mxCell id="AlthXYVjQaWiGImwefOa-95" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;html=1;" vertex="1" parent="AlthXYVjQaWiGImwefOa-94">
           <mxGeometry y="30" width="180" height="30" as="geometry" />
@@ -458,7 +458,7 @@
             <mxPoint x="70" y="890" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="AlthXYVjQaWiGImwefOa-128" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERoneToMany;rounded=0;entryX=-0.006;entryY=0.3;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="AlthXYVjQaWiGImwefOa-95">
+        <mxCell id="AlthXYVjQaWiGImwefOa-128" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERoneToMany;rounded=0;entryX=-0.006;entryY=0.3;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="AlthXYVjQaWiGImwefOa-53" target="AlthXYVjQaWiGImwefOa-95">
           <mxGeometry width="100" height="100" relative="1" as="geometry">
             <mxPoint x="530" y="990" as="sourcePoint" />
             <mxPoint x="630" y="890" as="targetPoint" />
